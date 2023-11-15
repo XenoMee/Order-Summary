@@ -119,6 +119,7 @@ h1{
 }
 
 .attribution { 
+    padding: 0.5rem;
     font-size: 11px; 
     text-align: center; 
 }
