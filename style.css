@@ -105,6 +105,7 @@ h1{
 .payment{
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
+    font-weight: 700;
     padding: 1rem 7rem;
     margin: 0.8rem 0rem;
     background-color: hsl(245, 75%, 52%);
@@ -124,6 +125,7 @@ h1{
 .cancel{
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
+    font-weight: 700;
     margin: 1rem 0rem;
     padding: 0.5rem 1rem;
     border: none;
