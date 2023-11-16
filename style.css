@@ -42,7 +42,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 39.06rem;
+    width: 26rem;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 20px hsla(245, 75%, 52%, 0.1);
