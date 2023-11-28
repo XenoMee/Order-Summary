@@ -47,7 +47,7 @@ body{
 
 .card-title{
     color: hsl(223, 47%, 23%);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .card-description{
@@ -123,4 +123,42 @@ body{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
     text-decoration: none;
+}
+
+@media (min-width: 25em) {
+
+    body{
+        background: url("./images/pattern-background-desktop.svg") no-repeat;
+        background-color: hsl(225, 100%, 94%);
+    }
+
+    .content{
+        min-height: 100vh;
+    }
+
+    .card-container{
+        width: 25em;
+    }
+
+    .card-content{
+        width: 21em;
+        padding: 2rem;
+    }
+
+    .card-title{
+        font-size: 1.8em;
+    }
+
+    .card-annual-plan{
+        width: 19em;
+        height: 3.5em;
+    }
+
+    .change-btn{
+        margin-left: 6em;
+    }
+
+    .payment-btn{
+        padding: 0.8em 5.6em;
+    }
 }
