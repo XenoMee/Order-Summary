@@ -77,7 +77,7 @@ body{
 .annual-plan-title{
     color: hsl(223, 47%, 23%);
     font-weight: bold;
-    font-size: 1;
+    font-size: 0.99rem;
 }
 
 .annual-plan-price{
