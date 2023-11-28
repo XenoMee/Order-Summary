@@ -32,16 +32,16 @@ body{
 
 .card-content * {
     margin: 0;
-    text-align: center;
 }
 
 .card-content{
+    width: 17rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding: 1rem;
+    padding: 2rem 1.5rem;
 }
 
 .card-title{
@@ -49,73 +49,14 @@ body{
     font-size: 1.5rem;
 }
 
-.annual-plan{
-    text-align: start;
-    max-width: 20.62rem;
-    max-height: 110px;
-    background-color: hsl(225, 100%, 98%);
-    border-radius: 10px;
-    margin: 1rem auto;
-    padding: 1.25rem;
-}
-
-.annual-plan > img{
-    float: left;
-    width: 2.8rem;
-    margin-right: 20px;
-}
-
-.annual-plan .change{
-    position: relative;
-    bottom: 0.6rem;
-    left: 6.8rem;
-    border: none;
-    background-color: transparent;
-    font-family: 'Red Hat Display', sans-serif;
+.card-description{
+    text-align: center;
+    color:  hsl(224, 23%, 55%);
+    line-height: 1.5;
     font-size: 1rem;
 }
 
-.change a:active{
-    color: mediumpurple;
-}
 
-.btn{
-    color: hsl(224, 23%, 55%);
-}
-
-.payment-btn{
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    padding: 1em 7em;
-    margin: 0.8rem 0rem;
-    background-color: hsl(245, 75%, 52%);
-    color: hsl(225, 100%, 98%);
-    border: none;
-    border-radius: 7px;
-    box-shadow: 0px 20px hsla(245, 75%, 52%, 0.1);
-    -moz-box-shadow: 0px 20px 5px hsla(245, 75%, 52%, 0.1);
-    -webkit-box-shadow: 0px 20px 5px hsla(245, 75%, 52%, 0.1);
-    -o-box-shadow:0px 20px 5px hsla(245, 75%, 52%, 0.1);
-}
-
-.payment:active{
-    background-color:mediumpurple;
-}
-
-.cancel-btn{
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    margin: 1rem 0rem;
-    padding: 0.5em 1em;
-    border: none;
-    background-color: transparent;
-}
-
-.cancel:active{
-    color: hsl(223, 47%, 23%);
-}
 
 .attribution { 
     font-size: 0.8rem; 
