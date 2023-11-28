@@ -30,14 +30,14 @@ h1{
     margin-bottom: 1rem;
 }
 
-.container{
+.content{
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
 
-.card{
+.card-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,7 +102,7 @@ h1{
     color: hsl(224, 23%, 55%);
 }
 
-.payment{
+.payment-btn{
     font-family: 'Red Hat Display', sans-serif;
     font-size: 1rem;
     font-weight: 700;
@@ -122,7 +122,7 @@ h1{
     background-color:mediumpurple;
 }
 
-.cancel{
+.cancel-btn{
     font-family: 'Red Hat Display', sans-serif;
     font-size: 1rem;
     font-weight: 700;
