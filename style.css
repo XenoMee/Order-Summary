@@ -56,7 +56,17 @@ body{
     font-size: 1rem;
 }
 
+.card-annual-plan{
+    width: 17rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
 
+.card-annual-plan > img {
+    width: 3rem;
+}
 
 .attribution { 
     font-size: 0.8rem; 
