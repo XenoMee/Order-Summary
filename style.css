@@ -23,11 +23,10 @@ body{
     box-shadow: 0px 1.2rem 1rem 0.5rem hsla(245, 75%, 52%, 0.1);
 }
 
-.card > img{
+.main-card-image{
     width: 100%;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    margin: 0;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
 }
 
 .order{
