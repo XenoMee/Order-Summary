@@ -83,6 +83,14 @@ body{
     font-size: 1rem;
 }
 
+.change-btn{
+    border: none;
+    background-color: transparent;
+    color: hsl(245, 75%, 52%);
+    margin-left: 2rem;
+    font-weight: bold;
+    padding: 0;
+}
 
 .attribution { 
     font-size: 0.8rem; 
