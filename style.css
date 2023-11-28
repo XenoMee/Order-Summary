@@ -1,38 +1,13 @@
 
 body{
-    background-color: hsl(225, 100%, 94%);
     background: url("./images/pattern-background-mobile.svg") no-repeat;
-    background-repeat: no-repeat;
-    background-size: 100%;
     font-family: 'Red Hat Display', sans-serif;
-    text-align: center;
     margin: 0;
-}
-
-.txt{
-    display: inline-block;
-    color: hsl(224, 23%, 55%);
-    font-size: 1rem;
-    line-height: 1.5;
-    max-width: 21.8rem;
-    margin: 0;
-}
-
-h4{
-    display: inline-block;
-    color: hsl(223, 47%, 23%);
-    margin: 0;
-}
-
-h1{
-    color: hsl(223, 47%, 23%);
-    margin-top: 1.5 0rem;
-    margin-bottom: 1rem;
 }
 
 .content{
+    min-height: 100svh;
     display: flex;
-    height: 100vh;
     justify-content: center;
     align-items: center;
 }
@@ -42,13 +17,10 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 26rem;
+    max-width: 20rem;
     background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 20px hsla(245, 75%, 52%, 0.1);
-    -moz-box-shadow: 0px 20px 5px hsla(245, 75%, 52%, 0.1);
-    -webkit-box-shadow: 0px 20px 5px hsla(245, 75%, 52%, 0.1);
-    -o-box-shadow:0px 20px 5px hsla(245, 75%, 52%, 0.1);
+    border-radius: 1.5rem;
+    box-shadow: 0px 1.2rem 1rem 0.5rem hsla(245, 75%, 52%, 0.1);
 }
 
 .card > img{
