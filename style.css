@@ -57,7 +57,7 @@ body{
 }
 
 .card-annual-plan{
-    width: 16rem;
+    width: 15.5rem;
     height: 2.5rem;
     padding: 1rem;
     background-color: hsl(225, 100%, 98%);
@@ -90,6 +90,18 @@ body{
     margin-left: 2rem;
     font-weight: bold;
     padding: 0;
+}
+
+.payment-btn{
+    width: max-content;
+    padding: 1rem 4.5rem;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: bold;
+    font-family: 'Red Hat Display', sans-serif;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 1.2rem 1rem 0.5rem hsla(245, 75%, 52%, 0.1);
 }
 
 .attribution { 
