@@ -57,16 +57,32 @@ body{
 }
 
 .card-annual-plan{
-    width: 17rem;
+    width: 16rem;
+    height: 2.5rem;
+    padding: 1rem;
+    background-color: hsl(225, 100%, 98%);
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 1rem;
+    gap: 1.2rem;
+    border-radius: 1rem;
 }
 
 .card-annual-plan > img {
-    width: 3rem;
+    width: 2.8rem;
 }
+
+.annual-plan-title{
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+    font-size: 1;
+}
+
+.annual-plan-price{
+    color:  hsl(224, 23%, 55%);
+    font-size: 1rem;
+}
+
 
 .attribution { 
     font-size: 0.8rem; 
