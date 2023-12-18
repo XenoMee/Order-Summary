@@ -14,9 +14,8 @@ body{
 
 .content{
     min-height: 100svh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
 }
 
 .card-container{
