@@ -27,6 +27,7 @@ body{
 }
 
 .main-card-image{
+    display: block;
     max-width: 100%;
     border-top-right-radius: 1.5rem;
     border-top-left-radius: 1.5rem;
@@ -34,7 +35,7 @@ body{
 }
 
 .card-body{
-    
+
 }
 
 .card-title{
