@@ -35,7 +35,7 @@ body{
 }
 
 .card-body{
-
+    padding: 1.5rem;
 }
 
 .card-title{
@@ -44,51 +44,40 @@ body{
 }
 
 .card-description{
-    text-align: center;
     color:  hsl(224, 23%, 55%);
     line-height: 1.5;
-    font-size: 1rem;
 }
 
 .card-annual-plan{
-    width: 15.5rem;
-    height: 2.5rem;
-    padding: 1rem;
-    background-color: hsl(225, 100%, 98%);
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    background-color: hsl(225, 100%, 98%);
     gap: 1.2rem;
     border-radius: 1rem;
 }
 
-.card-annual-plan > img {
+.icon {
     width: 2.8rem;
 }
 
 .annual-plan-title{
     color: hsl(223, 47%, 23%);
-    font-weight: bold;
-    font-size: 0.99rem;
+    font-weight: 700;
 }
 
 .annual-plan-price{
     color:  hsl(224, 23%, 55%);
-    font-size: 1rem;
+    margin-bottom: 0;
 }
 
 .change-btn{
-    border: none;
-    background-color: transparent;
     color: hsl(245, 75%, 52%);
-    margin-left: 2rem;
-    font-weight: bold;
-    padding: 0;
 }
 
 .payment-btn{
-    width: max-content;
-    padding: 0.8rem 3.7rem;
+    display: block;
+    padding: 0.8rem;
     background-color: hsl(245, 75%, 52%);
     color: white;
     font-weight: bold;
@@ -101,21 +90,18 @@ body{
 }
 
 .cancel-btn{
-    padding: 0.5rem 1rem;
-    background-color: transparent;
-    border: none;
+    display: inline-block;
+    padding: 0.5rem;
     color: hsl(224, 23%, 55%);
-    font-weight: bold;
-    font-size: 1rem;
+    font-weight: 700;
 }
 
 .attribution { 
-    font-size: 0.8rem; 
+    font-size: 0.9rem; 
     text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-    text-decoration: none;
 }
 
 @media (min-width: 25em) {
