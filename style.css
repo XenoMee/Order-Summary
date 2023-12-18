@@ -19,35 +19,22 @@ body{
 }
 
 .card-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 20rem;
-    min-height: 33rem;
+    text-align: center;
     background-color: white;
     border-radius: 1.5rem;
-    box-shadow: 0px 1.2rem 1rem 0.5rem hsla(245, 75%, 52%, 0.1);
+    box-shadow: 0 1.2rem 1rem 0.5rem hsla(245, 75%, 52%, 0.1);
 }
 
 .main-card-image{
-    width: 100%;
+    max-width: 100%;
     border-top-right-radius: 1.5rem;
     border-top-left-radius: 1.5rem;
+    object-fit: cover;
 }
 
-.card-content * {
-    margin: 0;
-}
-
-.card-content{
-    width: 17rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding: 2rem 1.5rem;
+.card-body{
+    
 }
 
 .card-title{
