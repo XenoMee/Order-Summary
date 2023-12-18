@@ -114,12 +114,12 @@ body{
     color: hsl(228, 45%, 44%); 
 }
 
-@media (min-width: 25em) {
+@media (min-width: 25rem) {
 
     body{
         background: url("./images/pattern-background-desktop.svg") no-repeat;
-        background-color: hsl(225, 100%, 94%);
         background-size: contain;
+        background-color: hsl(225, 100%, 94%);
     }
 
     .content{
@@ -127,28 +127,26 @@ body{
     }
 
     .card-container{
-        width: 25em;
+        width: 25rem;
     }
 
-    .card-content{
-        width: 21em;
+    .card-body{
         padding: 2rem;
     }
 
     .card-title{
-        font-size: 1.8em;
+        font-size: 1.8rem;
+    }
+
+    .card-description{
+        margin-bottom: 1.5rem;
     }
 
     .card-annual-plan{
-        width: 19em;
-        height: 3.5em;
+        padding: 1.3rem;
     }
 
     .change-btn{
-        margin-left: 6em;
-    }
-
-    .payment-btn{
-        padding: 0.8em 5.6em;
+        margin-left: 5rem;
     }
 }
