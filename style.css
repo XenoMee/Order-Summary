@@ -121,21 +121,20 @@ body {
 
 .btn {
   display: inline-block;
-  font-weight: var(--fw-bold);
+  padding: 0.8rem 2rem;
+  font-weight: var(--fw-bolder);
   border-radius: var(--content-br);
   text-decoration: none;
 }
 
-.payment-btn {
-  padding: 0.8rem 2rem;
+.btn--payment {
   background-color: var(--clr-primary-600);
   color: white;
   box-shadow: 0rem 1rem 1rem hsla(245, 75%, 52%, 0.2);
 }
 
-.cancel-btn {
+.btn--cancel {
   color: var(--clr-neutral-400);
-  font-weight: var(--fw-bold);
 }
 
 /* Utility classes */
