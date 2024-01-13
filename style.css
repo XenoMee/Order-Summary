@@ -22,6 +22,7 @@
 /* Remove default margins */
 * {
   margin: 0;
+  padding: 0;
 }
 
 /* Responsive images */
@@ -110,13 +111,15 @@ body {
   font-weight: var(--fw-bolder);
 }
 
-.change-btn {
+.sub__change {
   display: inline-block;
   background-color: transparent;
   color: var(--clr-primary-600);
   text-decoration: underline;
   border: none;
   font-weight: var(--fw-bold);
+
+  flex-grow: 1;
 }
 
 .btn {
