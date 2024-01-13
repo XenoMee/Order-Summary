@@ -33,6 +33,14 @@ video {
   display: block;
 }
 
+a,
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
 /* Avoid text overflowing */
 p,
 h1,
