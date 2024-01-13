@@ -12,19 +12,47 @@
   --fw-bolder: 900;
 }
 
+/* Intuitive box-sizing model */
 *,
 *::after,
 *::before {
   box-sizing: border-box;
-  margin-top: 0;
 }
 
-body {
-  background: url("./images/pattern-background-mobile.svg") no-repeat;
-  background-size: cover;
-  background-color: hsl(225, 100%, 94%);
-  font-family: "Red Hat Display", sans-serif;
+/* Remove default margins */
+* {
   margin: 0;
+}
+
+/* Responsive images */
+img,
+picture,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+/* Avoid text overflowing */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* Small line-height for large text */
+h1 {
+  line-height: 1;
+}
+
+/* General styling */
+body {
+  line-height: 1.5;
+  min-height: 100svh;
 }
 
 .content {
