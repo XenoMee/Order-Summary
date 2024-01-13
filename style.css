@@ -62,24 +62,18 @@ body {
   place-content: center;
 }
 
-.card-container {
-  width: 20rem;
+.audio-card {
+  --content-spacing: 1rem;
+  --content-padding: 1rem;
+
   text-align: center;
   background-color: white;
   border-radius: 1.5rem;
+  overflow: hidden;
   box-shadow: 0 1.2rem 1rem 0.5rem hsla(245, 75%, 52%, 0.1);
-}
 
-.main-card-image {
-  display: block;
-  max-width: 100%;
-  border-top-right-radius: 1.5rem;
-  border-top-left-radius: 1.5rem;
-  object-fit: cover;
-}
-
-.card-body {
-  padding: 1.5rem;
+  display: grid;
+  gap: var(--content-spacing);
 }
 
 .card-title {
