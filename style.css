@@ -64,6 +64,7 @@ body {
   font-weight: var(--fw-regular);
   font-family: var(--ff-base);
   line-height: 1.5;
+  padding: 1.5rem;
   min-height: 100svh;
 
   display: grid;
