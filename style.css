@@ -65,6 +65,7 @@ body {
 .audio-card {
   --content-spacing: 1rem;
   --content-padding: 1rem;
+  --fs-title: 1.8rem;
 
   text-align: center;
   background-color: white;
@@ -83,9 +84,9 @@ body {
   gap: var(--content-spacing);
 }
 
-.card-title {
-  color: hsl(223, 47%, 23%);
-  font-size: 1.8rem;
+.audio-card__title {
+  color: var(--clr-neutral-800);
+  font-size: var(--fs-title);
 }
 
 .card-description {
