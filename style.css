@@ -74,8 +74,8 @@ body {
 
 .audio-card {
   --content-spacing: 1.5rem;
-  --content-padding: 1.5rem;
-  --fs-title: 1.8rem;
+  --content-padding: 1.3rem 1.6rem;
+  --fs-title: 1.6rem;
   --content-br: 0.5rem;
 
   text-align: center;
@@ -101,9 +101,17 @@ body {
   font-weight: var(--fw-bolder);
 }
 
-.card-annual-plan {
+.audio-card__sub {
   background-color: var(--clr-neutral-100);
   border-radius: var(--content-br);
+  padding: 1rem 0.5rem;
+}
+
+.audio-card__sub[data-icon="music-note"]::before {
+  content: "";
+  background-image: url("./images/icon-music.svg");
+  width: 48px;
+  height: 48px;
 }
 
 .plan__title {
@@ -118,7 +126,7 @@ body {
   text-decoration: underline;
   border: none;
   font-weight: var(--fw-bold);
-
+  text-align: end;
   flex-grow: 1;
 }
 
