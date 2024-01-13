@@ -76,6 +76,13 @@ body {
   gap: var(--content-spacing);
 }
 
+.audio-card__content {
+  padding: var(--content-padding);
+
+  display: grid;
+  gap: var(--content-spacing);
+}
+
 .card-title {
   color: hsl(223, 47%, 23%);
   font-size: 1.8rem;
