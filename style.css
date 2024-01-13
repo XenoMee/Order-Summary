@@ -72,10 +72,10 @@ body {
 }
 
 .audio-card {
-  --content-spacing: 1rem;
-  --content-padding: 1rem;
+  --content-spacing: 1.5rem;
+  --content-padding: 1.5rem;
   --fs-title: 1.8rem;
-  --content-br: 1rem;
+  --content-br: 0.5rem;
 
   text-align: center;
   background-color: white;
@@ -97,6 +97,7 @@ body {
 .audio-card__title {
   color: var(--clr-neutral-800);
   font-size: var(--fs-title);
+  font-weight: var(--fw-bolder);
 }
 
 .card-annual-plan {
@@ -106,7 +107,7 @@ body {
 
 .plan__title {
   color: var(--clr-neutral-800);
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-bolder);
 }
 
 .change-btn {
@@ -119,25 +120,22 @@ body {
 }
 
 .btn {
+  display: inline-block;
   font-weight: var(--fw-bold);
-  border-radius: 0.5rem;
+  border-radius: var(--content-br);
   text-decoration: none;
 }
 
 .payment-btn {
-  display: block;
-  padding: 0.8rem;
-  background-color: hsl(245, 75%, 52%);
+  padding: 0.8rem 2rem;
+  background-color: var(--clr-primary-600);
   color: white;
-  font-family: "Red Hat Display", sans-serif;
   box-shadow: 0rem 1rem 1rem hsla(245, 75%, 52%, 0.2);
-  margin-bottom: 1.5rem;
 }
 
 .cancel-btn {
-  display: inline-block;
-  color: hsl(224, 23%, 55%);
-  margin-bottom: 0.5rem;
+  color: var(--clr-neutral-400);
+  font-weight: var(--fw-bold);
 }
 
 /* Utility classes */
