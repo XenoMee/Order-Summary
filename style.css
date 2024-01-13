@@ -57,12 +57,9 @@ body {
   font-family: var(--ff-base);
   line-height: 1.5;
   min-height: 100svh;
-}
 
-.content {
-  min-height: 100svh;
   display: grid;
-  place-items: center;
+  place-content: center;
 }
 
 .card-container {
