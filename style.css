@@ -74,6 +74,7 @@ body {
   --content-spacing: 1rem;
   --content-padding: 1rem;
   --fs-title: 1.8rem;
+  --content-br: 1rem;
 
   text-align: center;
   background-color: white;
@@ -97,52 +98,27 @@ body {
   font-size: var(--fs-title);
 }
 
-.card-description {
-  color: hsl(224, 23%, 55%);
-  line-height: 1.5;
-}
-
 .card-annual-plan {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  background-color: hsl(225, 100%, 98%);
-  gap: 1rem;
-  border-radius: 1rem;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
+  background-color: var(--clr-neutral-100);
+  border-radius: var(--content-br);
 }
 
-.icon {
-  max-width: 2.8rem;
-}
-
-.annual-plan-description {
-  flex-grow: 1;
-}
-
-.annual-plan-title {
-  color: hsl(223, 47%, 23%);
-  font-weight: 700;
-  font-size: 0.9rem;
-}
-
-.annual-plan-price {
-  color: hsl(224, 23%, 55%);
-  margin-bottom: 0;
-  font-size: 0.9rem;
+.plan__title {
+  color: var(--clr-neutral-800);
+  font-weight: var(--fw-bold);
 }
 
 .change-btn {
   display: inline-block;
-  color: hsl(245, 75%, 52%);
-  font-weight: 700;
-  font-size: 0.9rem;
-  margin-left: 1.5rem;
+  background-color: transparent;
+  color: var(--clr-primary-600);
+  text-decoration: underline;
+  border: none;
+  font-weight: var(--fw-bold);
 }
 
 .btn {
-  font-weight: 700;
+  font-weight: var(--fw-bold);
   border-radius: 0.5rem;
   text-decoration: none;
 }
@@ -161,6 +137,13 @@ body {
   display: inline-block;
   color: hsl(224, 23%, 55%);
   margin-bottom: 0.5rem;
+}
+
+/* Utility classes */
+.has-flex {
+  display: flex;
+  align-items: center;
+  gap: var(--content-spacing);
 }
 
 @media (min-width: 25rem) {
