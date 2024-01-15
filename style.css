@@ -111,6 +111,8 @@ body {
 .audio-card__sub[data-icon="music-note"]::before {
   content: "";
   background-image: url("./images/icon-music.svg");
+  background-repeat: no-repeat;
+  background-size: 3rem;
   width: 3rem;
   height: 3rem;
 }
