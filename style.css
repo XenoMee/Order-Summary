@@ -151,43 +151,15 @@ body {
 
 /* Utility classes */
 .has-flex {
+  --item-gap: 1rem;
+
   display: flex;
   align-items: center;
-  gap: var(--content-spacing);
+  gap: var(--item-gap);
 }
 
-@media (min-width: 25rem) {
-  body {
-    background: url("./images/pattern-background-desktop.svg") no-repeat;
-    background-size: contain;
-    background-color: hsl(225, 100%, 94%);
+/* @media (min-width: 27em) {
+  .audio-card {
+    max-width: 27rem;
   }
-
-  .content {
-    min-height: 100vh;
-  }
-
-  .card-container {
-    width: 25rem;
-  }
-
-  .card-body {
-    padding: 2rem;
-  }
-
-  .card-title {
-    font-size: 1.8rem;
-  }
-
-  .card-description {
-    margin-bottom: 1.5rem;
-  }
-
-  .card-annual-plan {
-    padding: 1.3rem;
-  }
-
-  .change-btn {
-    margin-left: 5rem;
-  }
-}
+} */
