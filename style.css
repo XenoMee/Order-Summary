@@ -161,6 +161,11 @@ body {
 @media (min-width: 27em) {
   .audio-card {
     --content-padding: 2rem 2.5rem;
+    --content-spacing: 1rem;
     max-width: 27rem;
+  }
+
+  .audio-card__sub {
+    padding: 1.5rem;
   }
 }
