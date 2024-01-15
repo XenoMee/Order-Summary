@@ -136,7 +136,7 @@ body {
 
 .btn {
   display: block;
-  padding: 0.8rem 2rem;
+  padding: 0.8rem;
   font-weight: var(--fw-bolder);
   border-radius: var(--content-br);
   text-decoration: none;
@@ -151,7 +151,6 @@ body {
 
 .btn--cancel {
   display: inline-block;
-  padding: 0.8rem;
   color: var(--clr-neutral-400);
 }
 
