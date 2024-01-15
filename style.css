@@ -158,8 +158,8 @@ body {
   gap: var(--item-gap);
 }
 
-/* @media (min-width: 27em) {
+@media (min-width: 27em) {
   .audio-card {
     max-width: 27rem;
   }
-} */
+}
