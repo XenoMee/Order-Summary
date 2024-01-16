@@ -163,15 +163,15 @@ body {
   gap: var(--item-gap);
 }
 
-@media (min-width: 27em) {
+@media (min-width: 28em) {
   .audio-card {
-    --content-padding: 2rem 2.5rem;
+    --content-padding: 2rem 2.6rem;
     --content-spacing: 1rem;
-    max-width: 27rem;
+    max-width: 28rem;
   }
 
   .audio-card__sub {
-    padding: 1.5rem;
+    padding: 1.3rem;
   }
 
   .sub__change:is(:hover, :focus) {
