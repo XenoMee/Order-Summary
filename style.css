@@ -107,7 +107,7 @@ body {
 .audio-card__sub {
   background-color: var(--clr-neutral-100);
   border-radius: var(--content-br);
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .audio-card__sub[data-icon="music-note"]::before {
@@ -148,7 +148,7 @@ body {
   background-color: var(--clr-primary-600);
   color: white;
   box-shadow: 0rem 1rem 1rem hsla(245, 75%, 52%, 0.2);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5em;
 }
 
 .btn--cancel {
