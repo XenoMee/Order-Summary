@@ -73,6 +73,7 @@ body {
   place-content: center;
 }
 
+/* Card */
 .audio-card {
   --content-spacing: 1.5rem;
   --content-padding: 1.3rem 1.6rem;
@@ -96,6 +97,7 @@ body {
   gap: var(--content-spacing);
 }
 
+/* Typography */
 .audio-card__title {
   color: var(--clr-neutral-800);
   font-size: var(--fs-title);
@@ -122,6 +124,7 @@ body {
   font-weight: var(--fw-bolder);
 }
 
+/* Link */
 .sub__change {
   display: inline-block;
   background-color: transparent;
@@ -133,6 +136,7 @@ body {
   margin-left: auto;
 }
 
+/* Button */
 .btn {
   display: block;
   padding: 0.8rem;
